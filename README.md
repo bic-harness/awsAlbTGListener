@@ -1,4 +1,4 @@
-# awsAlbTGListener
+# Target Group & Listener setup for ALB
 
 ##### Repository that contains a script for Harness to automate the creation of Target Groups, Listeners and Listener rules based on the ALB setup and naming convention.
 
