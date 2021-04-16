@@ -1,5 +1,5 @@
 #set AWS credentials and defaults for authentication and config
-#below credentials need to be adjusted with the corresponding credentials
+#below credentials need to be adjusted with the corresponding secret names from your Harness Secrets
 export AWS_ACCESS_KEY_ID=${secrets.getValue('your_access_key_here')}
 export AWS_SECRET_ACCESS_KEY=${secrets.getValue('your_secret_access_key_here')}
 export AWS_DEFAULT_REGION="your_desired_region_here"
